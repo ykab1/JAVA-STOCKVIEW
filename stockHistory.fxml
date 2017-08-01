@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.historyController">
+   <children>
+      <MenuBar layoutX="5.0" layoutY="8.0" prefHeight="29.0" prefWidth="882.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="File">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Close" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Edit">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Delete" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="About" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <ImageView fitHeight="558.0" fitWidth="892.0" layoutX="4.0" layoutY="36.0" pickOnBounds="true">
+         <image>
+            <Image url="@country1.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#f5f2f2" layoutX="391.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Company Stock" wrappingWidth="214.63156127929688">
+         <font>
+            <Font name="Avenir Roman" size="30.0" />
+         </font>
+      </Text>
+      <ListView fx:id="stockList" layoutX="56.0" layoutY="150.0" prefHeight="379.0" prefWidth="232.0" />
+      <Button fx:id="closeButton" layoutX="51.0" layoutY="53.0" mnemonicParsing="false" onAction="#closeButtonAction" prefHeight="48.0" prefWidth="87.0" text="Main Menu" />
+      <Button layoutX="355.0" layoutY="275.0" mnemonicParsing="false" onAction="#viewData" prefHeight="51.0" prefWidth="138.0" text="More Details" />
+      <Button fx:id="Greport" layoutX="354.0" layoutY="346.0" mnemonicParsing="false" onAction="#generateReport" prefHeight="50.0" prefWidth="139.0" text="Generate Report" />
+      <Button fx:id="viewcompany" layoutX="353.0" layoutY="197.0" mnemonicParsing="false" onAction="#viewcompany" prefHeight="51.0" prefWidth="138.0" text="Latest share price" />
+      <TableView fx:id="briefSum" layoutX="534.0" layoutY="154.0" prefHeight="102.0" prefWidth="341.0">
+        <columns>
+          <TableColumn fx:id="stockSymbol" prefWidth="101.5269775390625" text="Stock Symbol" />
+          <TableColumn fx:id="companyName" prefWidth="100.9481201171875" text="Name" />
+            <TableColumn fx:id="sharePrice" prefWidth="137.0518798828125" text="Latest Share Price" />
+        </columns>
+      </TableView>
+      <Text fill="#eee3e3" layoutX="110.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Company" />
+      <Text fill="#903838" layoutX="612.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Brief information" wrappingWidth="138.0" />
+   </children>
+</Pane>

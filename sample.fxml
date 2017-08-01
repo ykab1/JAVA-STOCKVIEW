@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <MenuBar layoutX="5.0" layoutY="8.0" prefHeight="29.0" prefWidth="882.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <ImageView fitHeight="558.0" fitWidth="892.0" layoutX="4.0" layoutY="36.0" pickOnBounds="true">
+         <image>
+            <Image url="@country1.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#f5f2f2" layoutX="375.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Stock Viewer Menu" wrappingWidth="267.4958801269531">
+         <font>
+            <Font name="Avenir Roman" size="30.0" />
+         </font>
+      </Text>
+      <Button layoutX="188.0" layoutY="209.0" mnemonicParsing="false" onAction="#viewStock" prefHeight="65.0" prefWidth="134.0" text="Stock History">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="openCalc" layoutX="188.0" layoutY="315.0" mnemonicParsing="false" onAction="#openCalc" prefHeight="65.0" prefWidth="134.0" text="Calculator">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="227.0" fitWidth="391.0" layoutX="439.0" layoutY="202.0" opacity="0.65" pickOnBounds="true">
+         <image>
+            <Image url="@Market.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

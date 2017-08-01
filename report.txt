@@ -1,0 +1,147 @@
+
+Number: 6
+Stock symbol:CNA.L
+Company Name: Centrica plc
+Highest: 2017-01-03 235.5
+Lowest: 2016-11-21 195.2
+Average Close: 218.41364Close: 234
+
+Number: 7
+Stock symbol:CPG.L
+Company Name: Compass Group plc
+Highest: 2017-01-02 1501.0
+Lowest: 2016-12-06 1318.0
+Average Close: 1390.8636Close: 1445
+
+Number: 8
+Stock symbol:EXPN.L
+Company Name: Experian plc
+Highest: 2017-01-16 1612.0
+Lowest: 2016-11-14 1383.0
+Average Close: 1502.5151Close: 1565
+
+Number: 9
+Stock symbol:EZJ.L
+Company Name: EasyJet plc
+Highest: 2016-11-15 1087.0
+Lowest: 2017-02-07 923.0
+Average Close: 996.25Close: 893.7
+
+Number: 10
+Stock symbol:GKN.L
+Company Name: GKN Plc
+Highest: 2017-01-25 351.3
+Lowest: 2016-12-02 303.1
+Average Close: 322.94543Close: 340.9
+
+Number: 5
+Stock symbol:CCL.L
+Company Name: Carnival plc
+Highest: 2017-01-27 4340.0
+Lowest: 2016-12-02 3907.0
+Average Close: 4083.7576Close: 4301
+
+Number: 5
+Stock symbol:CCL.L
+Company Name: Carnival plc
+Highest: 2017-01-27 4340.0
+Lowest: 2016-12-02 3907.0
+Average Close: 4083.7576Close: 4301
+
+Number: 7
+Stock symbol:CPG.L
+Company Name: Compass Group plc
+Highest: 2017-01-02 1501.0
+Lowest: 2016-12-06 1318.0
+Average Close: 1390.8636Close: 1445
+
+Number: 9
+Stock symbol:EZJ.L
+Company Name: EasyJet plc
+Highest: 2016-11-15 1087.0
+Lowest: 2017-02-07 923.0
+Average Close: 996.25Close: 893.7
+
+Number: 5
+Stock symbol:CCL.L
+Company Name: Carnival plc
+Highest: 2017-01-27 4340.0
+Lowest: 2016-12-02 3907.0
+Average Close: 4083.7576Close: 4301
+
+Number: 6
+Stock symbol:CNA.L
+Company Name: Centrica plc
+Highest: 2017-01-03 235.5
+Lowest: 2016-11-21 195.2
+Average Close: 218.41364Close: 234
+
+Number: 8
+Stock symbol:EXPN.L
+Company Name: Experian plc
+Highest: 2017-01-16 1612.0
+Lowest: 2016-11-14 1383.0
+Average Close: 1502.5151Close: 1565
+
+Number: 9
+Stock symbol:EZJ.L
+Company Name: EasyJet plc
+Highest: 2016-11-15 1087.0
+Lowest: 2017-02-07 923.0
+Average Close: 996.25Close: 893.7
+
+Number: 7
+Stock symbol:CPG.L
+Company Name: Compass Group plc
+Highest: 2017-01-02 1501.0
+Lowest: 2016-12-06 1318.0
+Average Close: 1390.8636Close: 1445
+
+Number: 4
+Stock symbol:CCH.L
+Company Name: Coca-Cola HBC AG
+Highest: 2017-02-10 1826.0
+Lowest: 2016-12-14 1615.0
+Average Close: 1706.0151Close: 1826
+
+Number: 7
+Stock symbol:CPG.L
+Company Name: Compass Group plc
+Highest: 2017-01-02 1501.0
+Lowest: 2016-12-06 1318.0
+Average Close: 1390.8636Close: 1445
+
+Number: 7
+Stock symbol:CPG.L
+Company Name: Compass Group plc
+Highest: 2017-01-02 1501.0
+Lowest: 2016-12-06 1318.0
+Average Close: 1390.8636Close: 1445
+
+Number: 7
+Stock symbol:CPG.L
+Company Name: Compass Group plc
+Highest: 2017-01-02 1501.0
+Lowest: 2016-12-06 1318.0
+Average Close: 1390.8636Close: 1445
+
+Number: 8
+Stock symbol:EXPN.L
+Company Name: Experian plc
+Highest: 2017-01-16 1612.0
+Lowest: 2016-11-14 1383.0
+Average Close: 1502.5151Close: 1565
+
+Number: 9
+Stock symbol:EZJ.L
+Company Name: EasyJet plc
+Highest: 2016-11-15 1087.0
+Lowest: 2017-02-07 923.0
+Average Close: 996.25Close: 893.7
+
+Number: 13
+Stock symbol:PPB.L
+Company Name: Paddy Power Betfair plc
+Highest: 2017-01-05 8885.0
+Lowest: 2017-01-25 7935.0
+Average Close: 8411.516Close: 8700

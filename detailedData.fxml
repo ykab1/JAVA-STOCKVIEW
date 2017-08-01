@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.detailedController">
+   <children>
+      <MenuBar layoutX="5.0" layoutY="8.0" prefHeight="29.0" prefWidth="882.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="File">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Close" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Edit">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Delete" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="About" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <ImageView fitHeight="558.0" fitWidth="892.0" layoutX="4.0" layoutY="36.0" pickOnBounds="true">
+         <image>
+            <Image url="@country1.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="closeButton" layoutX="51.0" layoutY="53.0" mnemonicParsing="false" onAction="#closeButtonAction" prefHeight="48.0" prefWidth="87.0" text="Exit" />
+      <TableView fx:id="tableID" layoutX="186.0" layoutY="100.0" prefHeight="224.0" prefWidth="554.0">
+        <columns>
+          <TableColumn fx:id="Date" prefWidth="75.0" text="Date" />
+          <TableColumn fx:id="Open" prefWidth="75.0" text="Open" />
+            <TableColumn fx:id="High" prefWidth="75.0" text="High" />
+            <TableColumn fx:id="Low" prefWidth="75.0" text="Low" />
+            <TableColumn fx:id="Close" prefWidth="75.0" text="Close" />
+            <TableColumn fx:id="Volume" prefWidth="75.0" text="Volume" />
+            <TableColumn fx:id="AdjClose" prefWidth="75.0" text="Adj Close" />
+        </columns>
+      </TableView>
+      <TextField layoutX="367.0" layoutY="64.0" />
+      <LineChart fx:id="LineChart" layoutX="120.0" layoutY="338.0" prefHeight="230.0" prefWidth="728.0">
+        <xAxis>
+          <CategoryAxis fx:id="Xaxis" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="Yaxis" side="LEFT" />
+        </yAxis>
+         <effect>
+            <DropShadow height="30.36" radius="21.447499999999998" spread="0.88" width="57.43" />
+         </effect>
+      </LineChart>
+   </children>
+</Pane>
